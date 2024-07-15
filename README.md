@@ -10,6 +10,27 @@ Você receberá um número inteiro que representa a escolha do treinador: 1 para
 ## Saída
 A saída deve ser uma mensagem de boas-vindas que inclua o nome do Pokémon escolhido.
 
+## Explicação do código:
+
+Entrada de dados: gets("1", "2", "4", "5") é uma função hipotética usada para obter a escolha do treinador. O parseInt() é então utilizado para converter a escolha de string para um número inteiro, o que é necessário para comparações numéricas a seguir.
+
+### Variáveis:
+
+escolhaDoTreinador: Armazena o número inteiro que representa a escolha do treinador.
+pokemonEscolhido: Variável que será utilizada para armazenar o nome do Pokémon escolhido com base na escolha do treinador.
+
+### Condições de escolha do Pokémon:
+
+Aqui, o código utiliza uma série de declarações if-else if-else para determinar qual Pokémon corresponde à escolha do treinador (escolhaDoTreinador).
+
+Se escolhaDoTreinador for igual a 1, 2, ou 4, então pokemonEscolhido receberá o nome correspondente ao Pokémon ("Bulbasaur", "Charmander", "Pikachu", respectivamente).
+
+Se nenhuma das condições acima for verdadeira, o Pokémon escolhido será "Mewtwo".
+
+### Impressão do resultado:
+
+Finalmente, o código imprime uma mensagem informando qual Pokémon foi escolhido pelo treinador, utilizando a variável pokemonEscolhido para inserir o nome do Pokémon na mensagem.
+
 ## Resultado
 
 ![PrintDesafio3](https://github.com/user-attachments/assets/f708f5b4-9293-4e09-add2-1846456c01c2)
